@@ -1,15 +1,98 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bia 31 anos</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2? display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="styles/main.scss">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
-    <h1>Olá</h1>
-    <img src="./images/1.jpg" alt="">
+    <header class="hero">
+       <div class="container">
+        <img class="hero__logo" src="./images/logo.png" alt="logo">
+        <p class="hero__text">
+            Venha comemorar meu aniversário em <span id="contador"></span>
+        </p>
+        <div class="infos-bar">
+             <ul class="infos-bar__infos">
+                <li class="infos-bar__infos__item">
+                    <b>Localização</b>
+                </p>  Iate Clube Armação de Búzios - Rua Alcindo Guanabara 15, grp. 801, Rio de Janeiro ·
+                </li>
+                <li class="infos-bar__infos__item">
+                    <b>Preço</b>
+                </p> Primeiro lote R$800,00
+                </li>
+                <li class="infos-bar__infos__item">
+                    <b>Quando</b>
+                </p>  08/10/2023 às 14hrs
+                </li>
+             </ul>
+             <a href="#" class="button button--primary">
+                Garanta sua vaga
+             </a>
+        </div>
+       </div>
+    </header>
+
+    <section class="event event--iate">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Iate</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis quaerat dolorem ratione hic adipisci facilis molestiae. Laudantium ratione optio delectus, sapiente eveniet odio voluptatum corrupti et, voluptates distinctio fugiat.
+                </p>
+            </div>
+            <img class="event__image" src="./images/87387.jpg" alt="Barco">
+        </div>
+    </section>
+
+    <section class="event event--shows event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Shows</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis quaerat dolorem ratione hic adipisci facilis molestiae. Laudantium ratione optio delectus, sapiente eveniet odio voluptatum corrupti et, voluptates distinctio fugiat.
+                </p>
+            </div>
+            <img class="event__image" src="./images/2.jpg" alt="Festa">
+        </div>
+    </section>
+
+    <section class="event event--pôr-do-sol">
+        <div class="container" data-aos="fade-right">
+            <div class="event__details">
+                <h2 class="event__details__title">Pôr do sol</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis quaerat dolorem ratione hic adipisci facilis molestiae. Laudantium ratione optio delectus, sapiente eveniet odio voluptatum corrupti et, voluptates distinctio fugiat.
+                </p>
+            </div>
+            <img class="event__image" src="./images/OIP.jpg" alt="sol">
+        </div>
+    </section>
+
+    <section class="event event--bufê event--image-left">
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Bufê</h2>
+                <p class="event__details__description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa corporis quaerat dolorem ratione hic adipisci facilis molestiae. Laudantium ratione optio delectus, sapiente eveniet odio voluptatum corrupti et, voluptates distinctio fugiat.
+                </p>
+            </div>
+            <img class="event__image" src="./images/f31f12de-cc85-4bad-b6b5-1d459a52b681.jpg" alt="bolo">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
     <script src="scripts/main.js"></script>
 </body>
 </html>
